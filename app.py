@@ -105,7 +105,7 @@ def random_fill(items_df: pd.DataFrame, k: int, exclude: set[str]) -> list[str]:
 
 
 # --- Sidebar Layout ---
-st.sidebar.title("Identify, Prioritize, Engage: A Data-Driven Framework for Reducing Customer Churn")
+st.sidebar.title("Identify, Prioritize, Engage: A Data-Driven Framework  for Optimizing Customer Relationships ")
 dashboard_choice = st.sidebar.selectbox(
     "Choose Dashboard View",
     ["Churn Cost Analysis", "Segmentation", "Collaborative Filtering"]
@@ -739,3 +739,4 @@ elif dashboard_choice == "Collaborative Filtering":
                     """,
                     unsafe_allow_html=True
                 )
+
